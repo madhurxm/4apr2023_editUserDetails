@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "providence-bold";
+  src: url("../fonts/Merriweather/Merriweather-Regular.ttf");
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  /* font-family: "Bebas Neue"; */
+}
+body{
+  
+  font-family: 'Bebas Neue', cursive; 
+  font-family: "Merriweather", serif;
+  background-color: rgb(214, 233, 144) ; 
+}
+
+
+.invert {
+  background-color: white;
+  filter: invert(100%);
+}
+#col_1 {
+  background: #5da578;
+  box-shadow: 6px 11px 15px 0px rgba(0, 0, 0, 0.88);
+
+  border: 0px solid transparent;
+  border-radius: 10px;
+}
+#profile_pic_card {
+  border: 0px solid transparent;
+  /* border-radius: 10px; */
+}
+#profile_pic_card_body {
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* #info_card_body{
+    height: 300px;
+} */
+.inline_items {
+  display: flex;
+  align-items: flex-start;
+}
+

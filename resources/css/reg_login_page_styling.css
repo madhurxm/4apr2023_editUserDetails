@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "providence-bold";
+  src: url("../fonts/Merriweather/Merriweather-Regular.ttf");
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  font-family: "Bebas Neue";
+}
+
+.boxx {
+  display: flex;
+  max-width: 800px;
+
+  margin: 50px 10%;
+  box-shadow: 0 10px 15px 8px #0b1f16d7;
+  max-height: 550px;
+  min-height: 500px;
+  overflow: hidden;
+  background-color: rgb(199, 212, 178);
+  border-radius: 25px;
+}
+body {
+  background: rgb(15, 98, 57);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 98, 57, 1) 0%,
+    rgba(199, 207, 106, 1) 66%,
+    rgba(146, 244, 142, 1) 100%
+  );
+  background-repeat: no-repeat;
+  margin: 0;
+
+  background-attachment: fixed;
+  font-family: "Merriweather", serif;
+}
+.form-heading {
+  margin: 5px;
+  box-shadow: 4px 13px 8px 2px #2c8b60d7;
+  background-color: rgba(16, 90, 32, 0.671);
+  border-radius: 10px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  text-decoration: solid;
+}
+#form_div {
+  width: 390px;
+}
+.container {
+  position: relative;
+}
+.inside-form-1 {
+  position: relative;
+  visibility: visible;
+}
+/* .inside-form-visible-1{
+  position:absolute;
+  visibility: hidden;
+}*/
+
+.inside-form-2 {
+  position: relative;
+  opacity: 0;
+}
+/*
+.inside-form-3{
+  position:relative;
+  visibility: hidden;
+}
+
+.inside-form-visible-2{
+  position:relative;
+  visibility: visible;
+}
+.inside-form-visible-3{
+  position:absolute;
+  visibility: hidden;
+}
+.inside-form-visible-4{
+  position:relative;
+  visibility: visible;
+} */
+/* bodyy {
+  background-color: rgba(0, 0, 255, 0.486);
+} */
+#alert_style_div {
+  display:flow-root;
+  float: right;
+  right: -35px;
+  
+  margin-top: 5px;
+  padding-top: 3px;
+  position:initial;
+ background-color: rgba(255, 112, 112, 0.664) ;
+ border-style: double;
+ border-radius: 5px;
+ border-color: brown;
+ content-visibility:auto;
+}
+
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 12px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+.reg_btn_text {
+  position: absolute;
+}
+
+
