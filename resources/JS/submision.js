@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
 
       $(location).attr(
         "href",
-        "http://localhost/MM-Projects/MAR'23/18Mar_-_User_profille_project/app/Webpages/login.php"
+        "http://localhost/MM-Projects/APR'23/4Apr_-_Updating_details_of_user/app/Webpages/login.php"
       );
     }, 3000);
   });
@@ -275,7 +275,7 @@ jQuery(document).ready(function () {
           setTimeout(function () {
             $(location).attr(
               "href",
-              "http://localhost/MM-Projects/MAR'23/18Mar_-_User_profille_project/app/Webpages/profile_page.php"
+              "http://localhost/MM-Projects/APR'23/4Apr_-_Updating_details_of_user/app/Webpages/profile_page.php"
             );
           }, 6000);
         },
